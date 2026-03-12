@@ -1,7 +1,7 @@
 #ifndef XTCP_H
 #define XTCP_H
 
-#ifdef WIN32
+#ifdef _WIN32
 	#ifdef XSOCKET_EXPORTS
 		#define XSOCKET_API __declspec(dllexport)
 	#else
@@ -24,7 +24,10 @@ public:
 	void Close();
 	int Recv(char* buf, int bufsize);
 	int Send(const char* buf, int sendsize);
-	bool Connect(const char* ip,unsigned short port);
+	//在原有的基础上增加timeout参数,通过设置非阻塞+多路复用实现超时处理
+	bool Connect(const char* ip, unsigned short port,int timeouttms=1000);
+	//建立链接的时候西川王世非阻塞模式,收发数据时希望是阻塞模式
+	bool SetBlock(bool isblock);
 	XTcp();
 	virtual ~XTcp();
 	int sock = 0;

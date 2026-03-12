@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>\\192.168.199.163\code\bin\xsocket.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>\\192.168.199.163\code\bin\tcpclient.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

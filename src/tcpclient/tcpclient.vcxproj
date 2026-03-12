@@ -141,6 +141,11 @@
   <ItemGroup>
     <ClCompile Include="tcpclient.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\xsocket\xsocket.vcxproj">
+      <Project>{86956568-0dbb-46fb-b95d-7b491518116f}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

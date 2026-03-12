@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "\\\\192.168.199.163\\code\\src\\tcpclient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCF32CC5-298E-4F81-95E2-F1DF176C6AE4}|tcpclient.vcxproj|\\\\192.168.199.163\\code\\src\\tcpclient\\tcpclient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|\\\\192.168.199.163\\code\\src\\epoll\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86956568-0DBB-46FB-B95D-7B491518116F}|..\\xsocket\\xsocket.vcxproj|\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86956568-0DBB-46FB-B95D-7B491518116F}|..\\xsocket\\xsocket.vcxproj|\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86956568-0DBB-46FB-B95D-7B491518116F}|..\\xsocket\\xsocket.vcxproj|\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DCF32CC5-298E-4F81-95E2-F1DF176C6AE4}|tcpclient.vcxproj|\\\\192.168.199.163\\code\\src\\tcpclient\\tcpclient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,46 +22,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "server.cpp",
+              "DocumentMoniker": "\\\\192.168.199.163\\code\\src\\epoll\\server.cpp",
+              "RelativeDocumentMoniker": "..\\epoll\\server.cpp",
+              "ToolTip": "\\\\192.168.199.163\\code\\src\\epoll\\server.cpp",
+              "RelativeToolTip": "..\\epoll\\server.cpp",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-27T12:51:14.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "XTcp.h",
               "DocumentMoniker": "\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.h",
               "RelativeDocumentMoniker": "..\\xsocket\\XTcp.h",
               "ToolTip": "\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.h",
               "RelativeToolTip": "..\\xsocket\\XTcp.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAOAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-24T08:46:06.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T08:46:06.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "XTcp.cpp",
               "DocumentMoniker": "\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.cpp",
               "RelativeDocumentMoniker": "..\\xsocket\\XTcp.cpp",
               "ToolTip": "\\\\192.168.199.163\\code\\src\\xsocket\\XTcp.cpp",
               "RelativeToolTip": "..\\xsocket\\XTcp.cpp",
-              "ViewState": "AQIAAFEAAAAAAAAAAADwv14AAAAqAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAL4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-24T08:28:48.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T08:28:48.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "tcpclient.cpp",
               "DocumentMoniker": "\\\\192.168.199.163\\code\\src\\tcpclient\\tcpclient.cpp",
               "RelativeDocumentMoniker": "tcpclient.cpp",
               "ToolTip": "\\\\192.168.199.163\\code\\src\\tcpclient\\tcpclient.cpp",
               "RelativeToolTip": "tcpclient.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-24T08:25:16.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T08:25:16.596Z"
             }
           ]
         }
